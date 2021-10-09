@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="comic_slides.js"></script>
+
+<body>
+
+<img src="assets/fisch_logo.svg" class="title" width="15%" alt="fisch_logo.svg">
+<table class = "comic">
+    <tr>
+        <td width="10%">
+            <img src="assets/l_arrow.svg" class="arrow" alt="l_arrow.svg" onclick="prevSlide()">
+        </td>
+        <td width="80%">
+            <img src="assets/fisch/1.png" class="comic_slide" alt="1.png">
+            <img src="assets/fisch/2.png" class="comic_slide" alt="2.png">
+        </td>
+        <td width="10%">
+            <img src="assets/r_arrow.svg" class="arrow" alt="r_arrow.svg" onclick="nextSlide()">
+        </td>
+    </tr>
+</table>
+</body>
+
+
+<script>
+displayCurrSlide();
+</script>
+</html>
