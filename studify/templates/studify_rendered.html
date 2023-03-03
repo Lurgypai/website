@@ -10,9 +10,13 @@
 <body>
 <img src="studify_logo.svg" class="title" width="50%" alt="studify_logo.svg">
 
-<img src="{{ output }}" alt="output">
+<img src="{{ output }}" class="studify_output" width="80%" alt="output">
+
 <p class = "martin-font text">
-{{ pieces }}
+{% for piece in pieces %}
+		{{ piece }}
+		<br>
+{% endfor %}
 </p>
 </body>
 </html>

@@ -24,6 +24,15 @@
   margin-bottom: 100px;
 }
 
+.studify_output{
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  image-rendering: pixelated;
+}
+
 .text{
     text-align: left;
     margin-top: 100px;

@@ -11,7 +11,15 @@
 <img src="studify_logo.svg" class="title" width="50%" alt="studify_logo.svg">
 
 <p class = "martin-font text">
-This page will let you convert an image into a Lego stud mural!
+This page will let you convert an image into a Lego stud mural! Some notes:
+<br>
+PNG, JPG, and JPEG extensions are supported.
+<br>
+Images must be in RGB or RGBA format. Transparency is converted to black.
+<br>
+It works best with images that have a high contrast and a large color space.
+<br>
+There is only one palette available at the moment, but support for a few more is coming! The original script is available <a href="https://github.com/Lurgypai/Studify">on my github</a>.
 </p>
 
 <div id="preview">
@@ -24,7 +32,8 @@ inputElement.addEventListener("change", handleFiles, false);
 
 function sendFile(file) {
     console.log("Attempting to send file...")
-    const uri = "/studify/basic";
+    const uri = "http://rummagesale.net/e/studify/basic";
+    console.log(uri)
     const xhr = new XMLHttpRequest();
     const fd = new FormData();
 

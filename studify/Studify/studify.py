@@ -26,8 +26,11 @@ def studify(img, palette_file, pieces):
 
     target_image = Image.open(img)
     if target_image.mode != 'RGB':
-        print('Error, invalid mode')
-        return None
+        if target_image.mode == 'RGBA':
+            target_image = target_image.convert('RGB')
+        else:
+            print('Error, invalid mode')
+            return None, None
     target_image = target_image.quantize(palette=palette, dither=Image.Dither.NONE)
     target_image = target_image.convert('RGB')
     output_name = img[:-4] + '_output.png'

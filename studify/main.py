@@ -1,3 +1,5 @@
+#!/bin/python3
+
 from flask import Flask, request, flash, render_template
 from werkzeug.utils import secure_filename
 import os
@@ -40,11 +42,11 @@ def post_img(palette):
     
     # check if the post request has the file part
     if 'file' not in request.files:
-        return {'res': 'err', 'msg': 'Invalid file type, expected PNG, JPG or JPEG'}
+        return render_template("studify_rendered.html", output = '', pieces = ['Error, invalid image extension, use PNG, JPG or JPEG'])
     file = request.files['file']
 
     if file.filename == '':
-        return {'res': 'err', 'msg': 'Invalid file'}
+            return render_template("studify_rendered.html", output = '', pieces = ['Error, invalid image'])
     if file and allowed_file(file.filename):
         palette = secure_filename(palette)
         filename = secure_filename(file.filename)
@@ -52,8 +54,8 @@ def post_img(palette):
         file.save(filename)
         stud_list, output = studify(filename, 'Studify/palettes/' + palette + '.png', getpieces())
         if not stud_list:
-            return {'res': 'err', 'msg': 'Invalid image format, expected RGB'}
-        return render_template("studify_rendered.html", output = output, pieces = stud_list)
+            return render_template("studify_rendered.html", output = '', pieces = ['Error, invalid image format (probably an indexed image)'])
+        return render_template("studify_rendered.html", output = output, pieces = stud_list.split('\n'))
 
 if __name__ == '__main__':
     # this should be modified with host='0.0.0.0' to make the server publicly available
