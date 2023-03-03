@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+<img src="studify_logo.svg" class="title" width="50%" alt="studify_logo.svg">
+
+<p class = "martin-font text">
+This page will let you convert an image into a Lego stud mural!
+</p>
+
+<div id="preview">
+</div>
+
+<input class = "martin-font text" type="file" id="input" />
+<script>
+const inputElement = document.getElementById("input");
+inputElement.addEventListener("change", handleFiles, false);
+
+function sendFile(file) {
+    console.log("Attempting to send file...")
+    const uri = "/studify/basic";
+    const xhr = new XMLHttpRequest();
+    const fd = new FormData();
+
+    xhr.open("POST", uri, true);
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.open();
+            document.write(xhr.responseText);
+            document.close();
+        }
+    };
+    fd.append('file', file);
+    // Initiate a multipart/form-data upload
+    xhr.send(fd);
+}
+
+function handleFiles() {
+    const file = this.files[0];
+
+    if (!file.type.startsWith("image/")) {
+      return;
+    }
+
+    const img = document.createElement("img");
+    img.classList.add("obj");
+    img.file = file;
+    preview.appendChild(img); // Assuming that "preview" is the div output where the content will be displayed.
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+    
+    sendFile(file);
+}
+</script>
+</body>
+</html>

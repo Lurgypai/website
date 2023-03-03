@@ -1,0 +1,432 @@
+[
+  [
+    "212121",
+    "Black",
+    8417
+  ],
+  [
+    "0057A6",
+    "Blue",
+    6462
+  ],
+  [
+    "10CB31",
+    "Bright Green",
+    3576
+  ],
+  [
+    "FFC700",
+    "Bright Light Orange",
+    983
+  ],
+  [
+    "FFF08C",
+    "Bright Light Yellow",
+    1176
+  ],
+  [
+    "F7BCDA",
+    "Bright Pink",
+    6371
+  ],
+  [
+    "6B3F22",
+    "Brown",
+    117
+  ],
+  [
+    "009FE0",
+    "Dark Azure",
+    4
+  ],
+  [
+    "243757",
+    "Dark Blue",
+    1713
+  ],
+  [
+    "595D60",
+    "Dark Bluish Gray",
+    5697
+  ],
+  [
+    "50372F",
+    "Dark Brown",
+    1166
+  ],
+  [
+    "6B5A5A",
+    "Dark Gray",
+    899
+  ],
+  [
+    "B35408",
+    "Dark Orange",
+    1723
+  ],
+  [
+    "EF5BB3",
+    "Dark Pink",
+    1831
+  ],
+  [
+    "5F2683",
+    "Dark Purple",
+    5283
+  ],
+  [
+    "6A0E15",
+    "Dark Red",
+    1514
+  ],
+  [
+    "B89869",
+    "Dark Tan",
+    850
+  ],
+  [
+    "00A29F",
+    "Dark Turquoise",
+    1295
+  ],
+  [
+    "00923D",
+    "Green",
+    5071
+  ],
+  [
+    "CFEFEA",
+    "Light Aqua",
+    463
+  ],
+  [
+    "AFB5C7",
+    "Light Bluish Gray",
+    6971
+  ],
+  [
+    "9C9C9C",
+    "Light Gray",
+    1387
+  ],
+  [
+    "D7EED1",
+    "Light Green",
+    14
+  ],
+  [
+    "ECEEBD",
+    "Light Lime",
+    3
+  ],
+  [
+    "F2D3D1",
+    "Light Pink",
+    4
+  ],
+  [
+    "FEE89F",
+    "Light Yellow",
+    1
+  ],
+  [
+    "C4E000",
+    "Lime",
+    6601
+  ],
+  [
+    "7DC1D8",
+    "Maersk Blue",
+    16
+  ],
+  [
+    "B72276",
+    "Magenta",
+    1340
+  ],
+  [
+    "6ACEE0",
+    "Medium Azure",
+    3543
+  ],
+  [
+    "C689D9",
+    "Medium Lavender",
+    137
+  ],
+  [
+    "DFE000",
+    "Medium Lime",
+    5
+  ],
+  [
+    "E3A05B",
+    "Medium Nougat",
+    3784
+  ],
+  [
+    "DBF355",
+    "Neon Green",
+    4
+  ],
+  [
+    "FA5947",
+    "Neon Orange",
+    2
+  ],
+  [
+    "FFAF7D",
+    "Nougat",
+    138
+  ],
+  [
+    "ABA953",
+    "Olive Green",
+    2692
+  ],
+  [
+    "FF7E14",
+    "Orange",
+    5902
+  ],
+  [
+    "F5CDD6",
+    "Pink",
+    58
+  ],
+  [
+    "7A238D",
+    "Purple",
+    30
+  ],
+  [
+    "B30006",
+    "Red",
+    8724
+  ],
+  [
+    "82422A",
+    "Reddish Brown",
+    6611
+  ],
+  [
+    "8899AB",
+    "Sand Blue",
+    894
+  ],
+  [
+    "A2BFA3",
+    "Sand Green",
+    323
+  ],
+  [
+    "8AD4E1",
+    "Sky Blue",
+    1
+  ],
+  [
+    "EED9A4",
+    "Tan",
+    5945
+  ],
+  [
+    "3448A4",
+    "Violet",
+    2
+  ],
+  [
+    "FFFFFF",
+    "White",
+    8027
+  ],
+  [
+    "FFE001",
+    "Yellow",
+    6941
+  ],
+  [
+    "E7F2A7",
+    "Yellowish Green",
+    3878
+  ],
+  [
+    "B7C8BF",
+    "Trans-Aqua",
+    6
+  ],
+  [
+    "939484",
+    "Trans-Black",
+    79
+  ],
+  [
+    "10CB31",
+    "Trans-Bright Green",
+    5021
+  ],
+  [
+    "EEEEEE",
+    "Trans-Clear",
+    6924
+  ],
+  [
+    "00296B",
+    "Trans-Dark Blue",
+    4374
+  ],
+  [
+    "CE1D9B",
+    "Trans-Dark Pink",
+    5193
+  ],
+  [
+    "217625",
+    "Trans-Green",
+    6004
+  ],
+  [
+    "68BCC5",
+    "Trans-Light Blue",
+    5968
+  ],
+  [
+    "71EB54",
+    "Trans-Light Bright Green",
+    19
+  ],
+  [
+    "94E5AB",
+    "Trans-Light Green",
+    18
+  ],
+  [
+    "E99A3A",
+    "Trans-Light Orange",
+    124
+  ],
+  [
+    "76A3C8",
+    "Trans-Medium Blue",
+    335
+  ],
+  [
+    "C0F500",
+    "Trans-Neon Green",
+    5529
+  ],
+  [
+    "FF4231",
+    "Trans-Neon Orange",
+    4856
+  ],
+  [
+    "FFD700",
+    "Trans-Neon Yellow",
+    68
+  ],
+  [
+    "E96F01",
+    "Trans-Orange",
+    7792
+  ],
+  [
+    "FF8298",
+    "Trans-Pink",
+    71
+  ],
+  [
+    "5525B7",
+    "Trans-Purple",
+    4185
+  ],
+  [
+    "9C0010",
+    "Trans-Red",
+    11571
+  ],
+  [
+    "EBF72D",
+    "Trans-Yellow",
+    8455
+  ],
+  [
+    "645A4C",
+    "Chrome Antique Brass",
+    43
+  ],
+  [
+    "544E4F",
+    "Chrome Black",
+    2
+  ],
+  [
+    "F1F2E1",
+    "Chrome Gold",
+    114
+  ],
+  [
+    "DCDCDC",
+    "Chrome Silver",
+    73
+  ],
+  [
+    "AD7118",
+    "Flat Dark Gold",
+    329
+  ],
+  [
+    "8D949C",
+    "Flat Silver",
+    8165
+  ],
+  [
+    "282725",
+    "Pearl Black",
+    1
+  ],
+  [
+    "666660",
+    "Pearl Dark Gray",
+    3510
+  ],
+  [
+    "E79E1D",
+    "Pearl Gold",
+    8598
+  ],
+  [
+    "E7AE5A",
+    "Pearl Light Gold",
+    93
+  ],
+  [
+    "ACB7C0",
+    "Pearl Light Gray",
+    193
+  ],
+  [
+    "FFFFFF",
+    "Satin Trans-Clear",
+    4
+  ],
+  [
+    "B8860B",
+    "Metallic Gold",
+    104
+  ],
+  [
+    "C0C0C0",
+    "Metallic Silver",
+    4078
+  ],
+  [
+    "D4D5C9",
+    "Glow In Dark Opaque",
+    85
+  ],
+  [
+    "D9D9D9",
+    "Glow In Dark White",
+    797
+  ]
+]
